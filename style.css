@@ -1,0 +1,29 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #1c1c1e;
+      margin: 0;
+}
+
+.social-icons {
+      display: flex;
+      gap: 40px;
+}
+
+.icon {
+      font-size: 4.5rem;
+      color: #00ffcc;
+      text-decoration: none;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      padding: 5px 10px;
+      border-radius: 34px;
+
+}
+
+.icon:hover {
+      transform: translateY(-10px);
+      box-shadow: 0px 0px 15px rgba(0, 255, 204, 0.7), 0px 0px 30px rgba(0, 255, 204, 0.5);
+
+}
